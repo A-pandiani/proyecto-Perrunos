@@ -632,6 +632,7 @@ header .header__wave {
 }
 
 .bodyError .bodyError__h1 {
+  color: red;
   margin-bottom: 15px;
   padding-bottom: 20px;
   display: -webkit-box;
