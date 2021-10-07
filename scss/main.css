@@ -675,6 +675,6 @@ header .header__wave {
 }
 
 .bodyError .bodyError__a > span {
-  background-color: lightblue;
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */
