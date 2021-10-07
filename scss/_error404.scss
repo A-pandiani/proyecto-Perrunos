@@ -1,0 +1,41 @@
+.bodyError{
+    background:rgba(12, 11, 11, 0.966);
+   width: 100%;
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+.bodyError__h1{
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+   .bodyError__p{
+       margin:20px 15px 20px 15px;
+text-align: center; 
+color: white;      
+   }
+   .bodyError__img{
+       height: 100%;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       
+   }
+   .bodyError__a{
+       display: flex;
+       margin-top: 15px;
+       text-decoration: none;
+       background: rgba(12, 11, 11, 0.966);
+       color: black;
+       padding: 10px 15px;
+       justify-content: center;
+   }
+   .bodyError__a >span{
+       background-color:lightblue;
+       
+   }
+}

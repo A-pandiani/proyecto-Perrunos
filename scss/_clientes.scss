@@ -1,0 +1,50 @@
+.clientes {
+    padding: 60px 0px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+    .clientes__titulo {
+        color: #642a73;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .clientes__cards {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .clientes__card {
+        background: #642a73;
+        display: flex;
+        width: 46%;
+        height: 200px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+    }
+
+    .clientes__card img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border: 2px solid white;
+        border-radius: 50%;
+        display: block;
+    }
+
+    .clientes__contenidotextocard {
+        width: 60%;
+        color: white;
+    }
+
+    .clientes__contenidotextocar p {
+        font-weight: 300;
+        padding-top: 15px;
+    }
+
+}

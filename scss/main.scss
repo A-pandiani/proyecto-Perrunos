@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@import"./header";
+@import"./navbar";
+@import"./Informacion";
+@import"./portafolio";
+@import"./clientes";
+@import"./footer";
+@import"./headerproduct";
+@import"./tablaproduct";
+@import"./footerproducts";
+@import"./footerservicios";
+@import"./headerservicios";
+@import"./serviciobody";
+@import"./media-queries";
+@import"./error404";

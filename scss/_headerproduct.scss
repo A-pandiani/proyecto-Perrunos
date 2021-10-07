@@ -1,0 +1,52 @@
+.headerPro{
+   
+    width: 100%;
+    height: 600px;
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af1998, #f1271196), url(../vista/portada.png);
+   
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af1998, #f1271196),url(../vista/portada.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    .headerPro__nav{
+       text-align: right;
+  padding: 30px 50px 0px 0px;
+    }
+    .headerPro__nav >a{
+       color: white;
+       font-weight: 500;
+       text-decoration: none;
+       margin-right: 10px;
+    }
+    .headerPro__nav >a:hover{
+       text-decoration: underline;
+    }
+    .headerPro__textos{
+       display: flex;
+       height: 430px;
+       width: 100%;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+       .headerPro__h1{
+          font-size: 50px;
+  color: white;
+       }
+       .headerPro__h2{
+          font-size: 30px;
+  font-weight: normal;
+  color: white;
+       }
+    }
+    .headerPro__wave{
+       position: absolute;
+  bottom: 0;
+  width: 100%;
+    }
+}

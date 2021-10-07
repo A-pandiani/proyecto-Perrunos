@@ -1,0 +1,26 @@
+.footer{
+    background: grey;
+    padding: 60px 0px 30px 0px;
+    margin: 2px;
+    overflow: hidden;
+    .footer__contenedor{
+        display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    }
+    .footer__content{
+        text-align: center;
+    }
+    .footer__content h4{
+        color: white;
+    border-bottom: 3px solid violet;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    }
+    .footer__content p{
+        color: white;
+    }
+}
