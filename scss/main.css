@@ -83,6 +83,17 @@ header .header__wave {
     color: black;
     opacity: 1;
     position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar .navbar__bars {
+    color: black;
+    opacity: 1;
+    position: absolute;
     top: 1rem;
     right: 1rem;
     font-size: 2rem;
@@ -150,7 +161,7 @@ header .header__wave {
   text-align: center;
   width: 30px;
   height: 30px;
-  padding: 4px;
+  padding: 0px;
   margin-right: 5px;
 }
 
@@ -408,58 +419,10 @@ header .header__wave {
   width: 100%;
 }
 
-.tablaPro {
-  width: 90%;
-  background: white;
-  margin: 50px auto;
-  -webkit-box-shadow: 0 0 20px #333;
-          box-shadow: 0 0 20px #333;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 50px;
-}
-
-.tablaPro .tablaPro__titulo {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 4;
-  background: rgba(0, 0, 255, 0.644);
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-weight: bold;
-  font-size: 1.9rem;
-}
-
-.tablaPro .tablaPro__header {
-  font-weight: bold;
-  font-size: 1.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.tablaPro .tablaPro__item {
-  padding: 10px;
-  font-size: 1.2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.card {
+  width: 100%;
+  height: 600px;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

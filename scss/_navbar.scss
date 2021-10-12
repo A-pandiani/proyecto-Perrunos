@@ -19,11 +19,19 @@
         color: black;
         opacity: 1;
         position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 12px;
+        
+    }
+@include celular{
+    color: black;
+        opacity: 1;
+        position: absolute;
         top: 1rem;
         right: 1rem;
         font-size: 2rem;
-        
-    }
+}
 }
 .navbar__menu{
      list-style: none;
@@ -32,6 +40,7 @@
     
 }
 .navbar__menu--links{
+    
     color: white;
     font-weight: 500;
     text-decoration: none;

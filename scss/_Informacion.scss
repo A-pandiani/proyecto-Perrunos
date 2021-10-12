@@ -1,4 +1,5 @@
 
+@import"./media-queries";
 .informacion{
     display: flex;
     justify-content: space-evenly;
@@ -23,7 +24,8 @@
     overflow: hidden;
     }
     .informacion__textos h3{
-        margin-bottom: 15px
+        margin-bottom: 15px;
+        
     }
     .informacion__textos h3 span{
         background: #4d0686;
@@ -33,7 +35,7 @@
     text-align: center;
     width: 30px;
     height: 30px;
-    padding: 4px;
+    padding: 0px;
     margin-right: 5px;
     }
     .informacion__textos p{
