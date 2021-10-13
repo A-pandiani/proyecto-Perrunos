@@ -1,0 +1,62 @@
+.bodycontacto{
+    width: 100%;
+    height: 600px;
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af1998, #f1271196), url(../vista/portada.png);
+   
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af1998, #f1271196),url(../vista/portada.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+
+    .bodycontacto__h1{
+        text-align: center;
+    margin: 10px 0;
+    font-weight:800;
+    }
+    .bodycontacto__form{
+        background: white;
+    width: 100vh;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border: dashed 2px;
+
+    }
+    .bodycontacto__grupo{
+        position: relative;
+    margin: 45px;
+    
+    }
+.bodycontacto__input, .bodycontacto__textarea{
+    background: none;
+    color: gray;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+display: block;
+width: 100%;
+border:none;
+border-bottom: 1px solid gray;
+
+}
+.bodycontacto__input:focus,.bodycontacto__textarea:focus{
+    outline: none;
+    color: gray;
+}
+.label{
+    color:gray;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top:10px;
+ pointer-events: none;
+}
+
+}
+
