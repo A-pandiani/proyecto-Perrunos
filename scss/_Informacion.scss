@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-evenly;
 
+    .informacion__contenedor{
+        display: flex;
+    }
     .informacion__img{
         width: 48%;
     }
