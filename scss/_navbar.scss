@@ -1,5 +1,13 @@
 @import"./media-queries";
 
+.navbar{
+    @include celular{
+        padding-top: 0px;
+    }
+    @include tablet{
+padding-top:0px;
+    }
+}
 .navbar-light .navbar-nav .nav-link {
     @include tablet{
         color: white;
@@ -30,6 +38,11 @@ color: white;
     justify-content: center;
     color: white;
    }
+   @include tablet{
+    text-align: center ; 
+    justify-content: center;
+    color: white
+   }
 
 }
 .navbar-light .navbar-brand{
@@ -42,6 +55,11 @@ color: white;
         text-align: center ; 
        justify-content: center;
        color: white;
+    }
+    @include laptop{
+        text-align: center ; 
+       justify-content: center;
+       color: white
     }
 }
 .container-fluid{
@@ -71,7 +89,7 @@ color: white;
         background-size: cover;
         background-attachment: fixed;
         position: relative;
-        
+       
         
     @include tablet{
         background: linear-gradient(to right,#f5af1998, #f1271196 ) ;
@@ -86,6 +104,13 @@ color: white;
         background-size: cover;
         background-attachment: fixed;
         position:relative;
+       
+      
+    }
+    @include laptop{
+        text-align: center ; 
+       justify-content: center;
+       color:black
     }
 }
 .form-control{

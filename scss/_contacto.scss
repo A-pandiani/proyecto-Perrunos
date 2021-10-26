@@ -27,6 +27,27 @@
     border-radius: 10px;
     box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
     border: dashed 2px;
+    @include celular{
+        margin: auto;
+            padding: 5px;
+            text-align: center;
+            width: auto;
+            height: auto;
+    }
+    @include tablet{
+        margin: auto;
+            padding: 5px;
+            text-align: center;
+            width: auto;
+            height: auto;
+    }
+    @include laptop{
+        margin: auto;
+            padding: 5px;
+            text-align: center;
+            width: auto;
+            height: auto;
+    }
 
     }
     .bodycontacto__grupo{
@@ -59,4 +80,6 @@ border-bottom: 1px solid gray;
 }
 
 }
+
+
 
