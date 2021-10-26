@@ -113,22 +113,8 @@ color: white;
        color:black
     }
 }
-.form-control{
-    @include tablet{
-        display: none
-    }
-    @include celular{
-        display: none;
-    }
-}
-.btn{
-    @include tablet{
-        display: none;
-    }
-    @include celular{
-        display: none;
-    }
-}
+
+
 
 
 

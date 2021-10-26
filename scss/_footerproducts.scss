@@ -10,6 +10,13 @@
     margin: auto;
     padding-bottom: 50px;
     border-bottom: 1px solid black;
+    @include celular{
+        flex-direction: column;
+
+    }
+    @include tablet{
+        flex-direction: column;
+    }
     }
     .footerPro__content{
         text-align: center;
