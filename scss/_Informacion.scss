@@ -1,26 +1,37 @@
 
 @import"./media-queries";
+
 .informacion{
     display: flex;
     justify-content: space-evenly;
+    
 
     .informacion__contenedor{
         display: flex;
+        
     }
     .informacion__img{
         width: 48%;
+        @include celular{
+            display: none;
+        }
     }
     .informacion__textos{
         width: 48%;
+        @include celular{
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+            width: auto;
+            height: auto;
+        }
     }
     .informacion__titulo{
         color: #642a73;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
-    @include tablet{
-        color: black;
-    }
+    
     }
     .informacion__cont{
         padding: 60px 0px;

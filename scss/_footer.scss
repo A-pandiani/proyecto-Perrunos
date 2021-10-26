@@ -15,9 +15,14 @@
     margin: auto;
     padding-bottom: 50px;
     border-bottom: 1px solid black;
+    @include celular{
+        flex-direction:column;
+        
+    }
     }
     .footer__content{
         text-align: center;
+       
     }
     .footer__content h4{
         color: white;
