@@ -1,3 +1,6 @@
+@import "./media-queries";
+@import"./navbar";
+
 .bodycontacto{
     width: 100%;
     height: 600px;
@@ -79,6 +82,40 @@ border-bottom: 1px solid gray;
  pointer-events: none;
 }
 
+}
+.boton{
+    
+    .boton__button{
+        
+        background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af1998, #f1271196);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af1998, #f1271196); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: black;
+    border: solid 2px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-weight: bold;
+    @include celular{
+        color: black;
+    border: solid 2px;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+    }
+    @include tablet{
+        color: black;
+    border: solid 2px;
+    margin-left: 8%;
+    margin-right: 8%
+    }
+    @include laptop{
+        color: black;
+    border: solid 2px;
+    margin-left: 8%;
+    margin-right: 8%
+    }
+    }
 }
 
 

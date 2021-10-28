@@ -1,7 +1,7 @@
 .card{
 
     width: 100%;
-    height: 600px;
+    height: 95%;
     display: block;
     justify-content: center;
     align-items: center;
@@ -16,4 +16,22 @@
     color: black;
     border: dashed;
 }
+.card-body h1{
+color: orangered;
+text-align: center;
+text-decoration: underline;
+font-weight: 800;
+}
+
+
+}
+.titlePro{
+
+    .titlePro__h1{
+        text-align: center;
+        text-decoration: underline;
+        font-weight: 800;
+        color: orangered;
+
+    }
 }

@@ -592,7 +592,7 @@ header .header__wave {
 
 .card {
   width: 100%;
-  height: 600px;
+  height: 95%;
   display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -613,6 +613,20 @@ header .header__wave {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: black;
   border: dashed;
+}
+
+.card .card-body h1 {
+  color: orangered;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.titlePro .titlePro__h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 800;
+  color: orangered;
 }
 
 .footerPro {
@@ -799,6 +813,9 @@ header .header__wave {
 
 .titleServ .titleServ__h1 {
   text-decoration: underline;
+  color: orangered;
+  font-weight: 800;
+  text-align: center;
 }
 
 .bodyError {
@@ -860,6 +877,172 @@ header .header__wave {
 
 .bodyError .bodyError__a > span {
   background-color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-item {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-light .navbar-brand {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-light .navbar-brand {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-light .navbar-brand {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    background: -webkit-gradient(linear, left top, right top, from(#f5af1998), to(#f1271196));
+    background: linear-gradient(to right, #f5af1998, #f1271196);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container-fluid {
+    background: -webkit-gradient(linear, left top, right top, from(#f5af1998), to(#f1271196));
+    background: linear-gradient(to right, #f5af1998, #f1271196);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-light .navbar-toggler {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-light .navbar-toggler {
+    color: white;
+  }
+}
+
+.navbar-dark {
+  background: -webkit-gradient(linear, left top, right top, from(#f5af1998), to(#f1271196));
+  background: linear-gradient(to right, #f5af1998, #f1271196);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-dark {
+    background: -webkit-gradient(linear, left top, right top, from(#f5af1998), to(#f1271196));
+    background: linear-gradient(to right, #f5af1998, #f1271196);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-dark {
+    background: -webkit-gradient(linear, left top, right top, from(#f5af1998), to(#f1271196));
+    background: linear-gradient(to right, #f5af1998, #f1271196);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-dark {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: black;
+  }
 }
 
 .bodycontacto {
@@ -959,6 +1142,47 @@ header .header__wave {
   left: 5px;
   top: 10px;
   pointer-events: none;
+}
+
+.boton .boton__button {
+  background: #000000;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#f5af1998), to(#f1271196));
+  background: linear-gradient(to right, #f5af1998, #f1271196);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black;
+  border: solid 2px;
+  margin-left: 12%;
+  margin-right: 12%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .boton .boton__button {
+    color: black;
+    border: solid 2px;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boton .boton__button {
+    color: black;
+    border: solid 2px;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .boton .boton__button {
+    color: black;
+    border: solid 2px;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
 }
 
 .footercontacto {
